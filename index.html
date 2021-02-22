@@ -1,6 +1,6 @@
 <!doctype html>
 <!--suppress HtmlUnknownTarget -->
-<html lang="ru" >
+<html lang="ru">
 <head>
     <meta charset="utf-8">
     <title>Lesson-3</title>
@@ -18,8 +18,9 @@
 <hr>
 <p> Я усидчивая &#9786; и без каких-то дополнителных усилий могу концентрироваться на тех задачах,
     которые мне необходимо выполнить &#x1F60E . </p>
-<p> Меня можно отнести &#8364;к той категории людей, которые стараются сделать все идеально. Если делать не так, то зачем
-    вообще всё это?  &#169;</p>
+<p> Меня можно отнести &#8364;к той категории людей, которые стараются сделать все идеально. Если делать не так, то
+    зачем
+    вообще всё это? &#169;</p>
 <img
         src="about/Work-Life-Balance.png"
         alt="Work-Life-Balance"
@@ -27,13 +28,13 @@
 />
 <ol>
     <li>Знакомство с Web
-      <ul>
-        <li>Краткая история Web и что такое интернет.</li>
-        <li>Как устроен браузер и как он получает страницы по сети.</li>
-        <li>Что такое Git?</li>
-        <li>Создание первого репозитория.</li>
-        <li>О файле .gitignore.</li>
-      </ul>
+        <ul>
+            <li>Краткая история Web и что такое интернет.</li>
+            <li>Как устроен браузер и как он получает страницы по сети.</li>
+            <li>Что такое Git?</li>
+            <li>Создание первого репозитория.</li>
+            <li>О файле .gitignore.</li>
+        </ul>
     </li>
     <li>HTML-вёрстка – первые шаги
         <ul>
@@ -58,20 +59,92 @@
 <table border="1" width="100%">
     <tr>
         <th>Tag</th>
-        <th>Description</th
+        <th>Description</th>
     </tr>
     <tr>
-        <td> &#60;table&#62;  </td>
-        <td>Defines a table  </td>
+        <td> &#60;table&#62;</td>
+        <td>Defines a table</td>
     </tr>
     <tr>
         <td>&#60;tr&#62;</td>
         <td>Defines a row in a table</td>
     </tr>
-   
+    <tr>
+        <td> &#60;th&#62;</td>
+        <td rowspan="2"> Defines a "header cell"/"cell" in a table</td>
+    </tr>
+    <tr>
+        <td> &#60;td&#62;</td>
+    </tr>
+    <tr>
+        <td colspan="2"> Rarely used</td>
+    </tr>
+    <tr>
+        <td> &#60;caption&#62;</td>
+        <td>Defines a table caption</td>
+    </tr>
+    <tr>
+        <td> &#60;thead&#62;</td>
+        <td>Groups the header content in a table</td>
+    </tr>
+    <tr>
+        <td> &#60;tbody&#62;</td>
+        <td>Groups the body content in a table</td>
+    </tr>
+    <tr>
+        <td> &#60;tfoot&#62;</td>
+        <td>Groups the footer content in a table</td>
+    </tr>
 </table>
+<br>
+<form action="/" method="get">
+    <fieldset>
+        <legend>My first form</legend>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="Password">Password:</label><br>
+        <input type="password" id="Password" name="Password" required><br>
 
+        <p>Your programming level </p>
+        <input type="range" max="10" min="1" name="range">
 
+        <p>What does HTML stand for?</p>
+
+        <input type="checkbox" id="ans1" name="html">
+        <label for="ans1"> Hyperlinks and Text Markup Language</label><br>
+        <input type="checkbox" id="ans2" name="html">
+        <label for="ans2"> Home Tool Markup language</label><br>
+        <input type="checkbox" id="ans3" name="html">
+        <label for="ans3"> Hyper text Markup language</label><br>
+        <div>
+            <p>What does HTTP stand for?</p>
+            <input type="radio" id="answ1" name="http">
+            <label for="answ1">Hyper Text Translate Protocol</label><br>
+            <input type="radio" id="answ2" name="http">
+            <label for="answ2">Hyper Text Transmission Protocol</label><br>
+            <input type="radio" id="answ3" name="http">
+            <label for="answ3">Hyper Text Transfer Protocol</label>
+        </div>
+        <br>
+        <div>
+            <label for="answers">What does HTML stand for?</label> <br>
+            <select id="answers" name="select">
+                <option>Hyperlinks and Text Markup Language</option>
+                <option> Home Tool Markup language</option>
+                <option>Hyper text Markup language</option>
+            </select>
+        </div>
+        <br>
+
+        <label for="Comment">Comment</label> <br>
+        <textarea id="Comment" maxlength="500"> Comment
+    </textarea>
+        <br>
+        <button type="submit">Send</button>
+    </fieldset>
+</form>
 </body>
 </html>
 
