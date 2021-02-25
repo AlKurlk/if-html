@@ -1,0 +1,30 @@
+h1 {
+
+    text-align: center
+
+}
+
+.highlight {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 4px;
+    left: 670px;
+    top: 1087px;
+    background: #F5BD41;
+}
+.container{
+
+    display: flex;
+    justify-content: space-around;
+}
+ .icon {
+     text-align: center ;
+
+     padding: 20px;
+
+     /*align-content: center;*/
+
+     /*flex-flow: row wrap;*/
+}
+
