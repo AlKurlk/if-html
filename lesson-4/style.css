@@ -28,4 +28,6 @@ h1 {
 
      /*flex-flow: row wrap;*/
 }
-
+span {
+    padding-top: 10px;
+}
