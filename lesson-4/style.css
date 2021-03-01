@@ -5,12 +5,9 @@ h1 {
 }
 
 .highlight {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     width: 100px;
     height: 4px;
-    left: 670px;
-    top: 1087px;
     background: #F5BD41;
 }
 .container{
@@ -18,6 +15,7 @@ h1 {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
+    max-width: 3500px;
 }
  .icon {
      text-align: center ;
