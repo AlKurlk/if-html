@@ -1,7 +1,21 @@
+@font-face {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/roboto-400.woff2") format('woff2');
+}
+@font-face {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    src: url("fonts/roboto-500.woff2") format('woff2');
+}
 h1 {
-
-    text-align: center
-
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
 }
 
 .highlight {
@@ -10,22 +24,49 @@ h1 {
     height: 4px;
     background: #F5BD41;
 }
-.container{
 
+.container {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
     max-width: 3500px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
 }
- .icon {
-     text-align: center ;
 
-     padding: 20px;
-
-     /*align-content: center;*/
-
-     /*flex-flow: row wrap;*/
+.icon {
+    text-align: center;
+    padding: 20px;
 }
-span {
-    padding-top: 10px;
+.container-footer {
+    background: #10367C;
+    height: 630px;
+    display: flex;
+    line-height: 45px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+
+}
+.footer-section {
+    padding: 120px 100px;
+        font-weight: 500;
+       color: white;
+}
+.footer-points {
+        font-weight: 400;
+}
+.end {
+    /*position: absolute;*/
+    /*bottom: 10px;*/
+    /*left: 100px;*/
+    align-self: flex-end;
+        color: white;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+
 }
