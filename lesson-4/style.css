@@ -4,6 +4,7 @@
     font-weight: 400;
     src: url("fonts/roboto-400.woff2") format('woff2');
 }
+
 @font-face {
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -60,38 +61,39 @@ h1 {
 
 .container-footer {
     background: #10367C;
-    display: flex;
     font-family: "Roboto", sans-serif;
     font-style: normal;
+    align-content: center;
+
+}
+
+.all-section {
+    padding: 50px 30px;
+    display: flex;
     font-size: 20px;
+    justify-content: space-around;
 
 }
 
 .footer-section {
-    padding: 120px 100px;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-size: 20px;
+    line-height: 30px;
     font-weight: 500;
     color: white;
-
-}
+ }
 
 .footer-points {
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-size: 20px;
     font-weight: 400;
-    padding: 15px 0;
-}
+   }
 
 .end {
-    position: absolute;
-     left: 100px;
-    bottom: -200px;
+
+    padding: 50px 104px;
     color: white;
     font-weight: 400;
     font-size: 14px;
-    max-width: 3000px;
+
+
+
+
 
 }
