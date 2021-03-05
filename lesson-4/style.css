@@ -1,7 +1,39 @@
+@font-face {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/roboto-400.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    src: url("fonts/roboto-500.woff2") format('woff2');
+}
+
+
+/*@font-face {*/
+/*    font-family: 'Roboto';*/
+/*    font-style: normal;*/
+/*    font-weight: 500;*/
+/*    src: url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fChc4EsA.woff2) format('woff2');*/
+/*    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'Roboto';*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    src: url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format('woff2');*/
+/*    !*unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;*!*/
+/*}*/
 h1 {
-
-    text-align: center
-
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
 }
 
 .highlight {
@@ -10,22 +42,58 @@ h1 {
     height: 4px;
     background: #F5BD41;
 }
-.container{
 
+.container {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    max-width: 3500px;
+    max-width: 3000px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
 }
- .icon {
-     text-align: center ;
 
-     padding: 20px;
-
-     /*align-content: center;*/
-
-     /*flex-flow: row wrap;*/
+.icon {
+    text-align: center;
+    padding: 20px;
 }
-span {
-    padding-top: 10px;
+
+.container-footer {
+    background: #10367C;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    align-content: center;
+
+}
+
+.all-section {
+    padding: 50px 30px;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
+
+}
+
+.footer-section {
+    line-height: 30px;
+    font-weight: 500;
+    color: white;
+ }
+
+.footer-points {
+    font-weight: 400;
+   }
+
+.end {
+
+    padding: 50px 104px;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+
+
+
+
+
 }
