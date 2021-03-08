@@ -49,6 +49,7 @@ padding-left: 30px;
     height: 4px;
     background: #F5BD41;
     align-content: center;
+    margin-left: 35px;
 }
 
 #top-section-text {
@@ -58,6 +59,36 @@ padding-left: 30px;
     font-size: 50px;
     color: #ffffff;
     margin: 120px 0;
+}
+
+.form {
+    display: flex;
+}
+
+
+.destination {
+    width: 50%;
+    height: 65px;
+    flex-basis: 50%;
+
+}
+
+.date {
+    height: 65px;
+    width: 15%
+
+
+}
+.adults-room {
+    height: 65px;
+    width: 15%;
+
+}
+
+.submit {
+    height: 65px;
+    width: 20%;
+
 }
 
 #apps {
