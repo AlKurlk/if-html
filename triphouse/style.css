@@ -11,7 +11,9 @@
     font-weight: 500;
     src: url("fonts/roboto-500.woff2") format('woff2');
 }
-
+ body {
+     margin: 0;
+ }
 
 .top-section {
     background-image: url("images/background.jpg");
