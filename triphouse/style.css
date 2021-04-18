@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -11,9 +12,40 @@
     font-weight: 500;
     src: url("fonts/roboto-500.woff2") format('woff2');
 }
- body {
-     margin: 0;
- }
+
+:root {
+    --primary: #3077C6;
+    --primary-dark: #10367C;
+    --secondary: #F5BD41;
+    --white: #ffffff;
+    --black: #121212;
+    --dark-mode2: #1D1E1F;
+    --dark-mode3: #4D4D4D;
+    --stroke-color: #F3F3F4;
+    --text-color: #383838;
+    --secondary-text: #BFBFBF;
+    --bg-color: #EAF0F9;
+
+}
+
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+body {
+    margin: 0;
+}
 
 .top-section {
     background-image: url("images/background.jpg");
@@ -31,16 +63,17 @@
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    color: #ffffff;
+    color: var(--white);
     display: flex;
-    justify-content: space-between ;
+    justify-content: space-between;
 
 }
+
 .header-triphouse-right {
     display: flex;
     align-items: center;
     justify-content: space-between;
-padding-left: 30px;
+    padding-left: 30px;
 
 
 }
@@ -50,7 +83,7 @@ padding-left: 30px;
     position: absolute;
     width: 50px;
     height: 4px;
-    background: #F5BD41;
+    background: var(--secondary);
     align-content: center;
     margin-left: 35px;
 }
@@ -60,38 +93,39 @@ padding-left: 30px;
     font-style: normal;
     font-weight: 500;
     font-size: 50px;
-    color: #ffffff;
+    color: var(--white);
     margin: 120px 0;
 }
 
 .form {
     display: flex;
 
-      align-items: flex-end;
+    align-items: flex-end;
 
 }
+
 label {
-    color: #FFFFFF;
+    color: var(--white);
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
-        font-size: 18px;
+    font-size: 18px;
 }
 
 .destination {
     /*width: 40%;*/
-    width:100%;
+    width: 100%;
     height: 65px;
     /*flex-basis: 50%;*/
-    background: #FFFFFF;
-    border: 3px solid #F3F3F4;
+    background: var(--white);
+    border: 3px solid var(--stroke-color);
     box-sizing: border-box;
     border-radius: 8px;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    color: #383838;
+    color: var(--text-color);
     line-height: 21px;
 
 
@@ -100,41 +134,39 @@ label {
 .date {
     height: 65px;
     /*width: 18%;*/
-    background: #FFFFFF;
-    border: 3px solid #F3F3F4;
+    background: var(--white);
+    border: 3px solid var(--stroke-color);
     box-sizing: border-box;
     border-radius: 8px;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    color: #383838;
+    color: var(--text-color);
     text-align: center;
 
 
-
-
 }
+
 .adults-room {
     height: 65px;
     /*width: 27%;*/
-    background: #FFFFFF;
-    border: 3px solid #F3F3F4;
+    background: var(--white);
+    border: 3px solid var(--stroke-color);
     box-sizing: border-box;
     border-radius: 8px;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    color: #383838;
-
-text-align: center;
+    color: var(--text-color);
+    text-align: center;
 }
 
 .submit {
     height: 65px;
     /*width: 15%;*/
-    background: #3077C6;
+    background: var(--primary);
     border: none;
     box-sizing: border-box;
     border-radius: 8px;
@@ -142,12 +174,13 @@ text-align: center;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
-    color: #FFFFFF;
+    color: var(--white);
 }
 
 #apps {
-   text-align: center;
+    text-align: center;
 }
+
 h1 {
     text-align: center;
     font-family: "Roboto", sans-serif;
@@ -160,13 +193,13 @@ h1 {
     margin: 0 auto;
     width: 100px;
     height: 4px;
-    background: #F5BD41;
+    background: var(--secondary);
 }
 
 .container {
     display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
+
+    /*align-items: flex-end;*/
     max-width: 3000px;
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -180,7 +213,7 @@ h1 {
 }
 
 .container-footer {
-    background: #10367C;
+    background: var(--primary-dark);
     font-family: "Roboto", sans-serif;
     font-style: normal;
     align-content: center;
@@ -212,4 +245,20 @@ h1 {
     font-size: 14px;
 
 
+}
+@media only screen and (max-width: 768px) {
+
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-points {
+        display:none;
+
+    }
+    .end {
+        padding: 50px 55px;
+
+    }
 }
