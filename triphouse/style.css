@@ -97,6 +97,17 @@ body {
     margin-left: 35px;
 }
 
+/*h1::after {*/
+/*    --line-width: 100px;*/
+/*    width: var(--line-width);*/
+/*    height: 4px;*/
+/*    background: var(--secondary);*/
+/*    display: block;*/
+/*    position: relative;*/
+/*    left:calc(50% - (var(--line-width)) / 2);*/
+/*}*/
+
+
 #top-section-text {
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -272,7 +283,7 @@ h1 {
 
     }
     .end {
-      
+
 display: flex;
         justify-content: center ;
     }
