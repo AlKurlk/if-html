@@ -43,6 +43,14 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
+.col-sm-1 {width: 16.66%;}
+.col-sm-2 {width: 33.33%;}
+.col-sm-3 {width: 50%;}
+.col-sm-4 {width: 66.66%;}
+.col-sm-5 {width: 83.33%;}
+.col-sm-6 {width: 100%;}
+
+
 body {
     margin: 0;
     height:100%;
@@ -264,14 +272,13 @@ h1 {
 
     }
     .end {
-        padding: 50px 55px;
-
+      
+display: flex;
+        justify-content: center ;
     }
     .logo-white {
         display: inherit;
         padding-top: 50px;
-        margin-left: auto;
-        margin-right: auto;
-        /*margin: auto;*/
+
     }
 }
