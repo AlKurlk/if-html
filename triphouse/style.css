@@ -45,6 +45,7 @@
 
 body {
     margin: 0;
+    height:100%;
 }
 
 .top-section {
@@ -220,6 +221,11 @@ h1 {
 
 }
 
+.logo-white {
+    display: none;
+
+}
+
 .all-section {
     padding: 50px 30px;
     display: flex;
@@ -260,5 +266,12 @@ h1 {
     .end {
         padding: 50px 55px;
 
+    }
+    .logo-white {
+        display: inherit;
+        padding-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        /*margin: auto;*/
     }
 }
